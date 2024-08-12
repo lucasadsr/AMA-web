@@ -21,6 +21,7 @@ export function Messages() {
         return (
           <Message
             key={message.id}
+            id={message.id}
             text={message.text}
             amountOfReactions={message.amountOfReactions} 
           />
